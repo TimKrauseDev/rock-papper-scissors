@@ -59,10 +59,10 @@ function findRoundWinner(playerChoice, computerChoice){
         cscore.textContent = "COMPUTER: " + computerScore;
 
         if(computerScore == 5){
-            winnnerIMG.innerHTML = "<img src='computer.png' height=150px>";
+            winnnerIMG.innerHTML = "<img src='images/computer.png' height=150px>";
         }
         else{
-            winnnerIMG.innerHTML = "<img src='player.png' height=150px>";
+            winnnerIMG.innerHTML = "<img src='images/player.png' height=150px>";
         }
     }
 }
