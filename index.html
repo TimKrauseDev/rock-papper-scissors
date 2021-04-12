@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Sissors</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body id="body">
+        <div id="intro">
+            <button id="btnStart" class='btn btnStart btn-click'>START</button>
+        </div>
+        <div id='game'>
+            <div id="title">
+                <h1>Rock, Paper, Scissors?</h1>
+                <p id="roundWinner">First to 5. Choose Your Weapon!</p>
+            </div>
+            <div id="pvc">
+                <div class="playerBox">
+                    <div id="player" class="name">
+                        PLAYER
+                    </div>
+                    <div id="playerScore" class="score">
+                        <img src="player.png" height=70px>
+                        <div>SCORE: 0</div>
+                    </div>
+                    <div class="choices">
+                        <button id="rock" class='btn btn-focus1 btn-click'><img src="rock.jpg" alt="rock" height=150px></button>
+                        <button id="paper" class='btn btn-focus1 btn-click'><img src="paper.jpg" alt="paper" height=150px></button>
+                        <button id="scissors" class='btn btn-focus1 btn-click'><img src="scissors.jpg" alt="scissors" height=150px></button>
+                    </div>
+                </div>
+                <div class="playerBox">
+                    <div id="computer" class="name">
+                        COMPUTER
+                    </div>
+                    <div id="computerScore" class="score">
+                        <img src="computer.png" height=70px>
+                        <div>SCORE: 0</div>
+                    </div>
+                    <div class="choices">
+                        <button id="btnc0" class='btn'><img src="rock.jpg" alt="rock" height=150px></button>
+                        <button id="btnc1" class='btn'><img src="paper.jpg" alt="paper" height=150px></button>
+                        <button id="btnc2" class='btn'><img src="scissors.jpg" alt="scissors" height=150px></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="outro">
+            <h1>WINNER!</h1>
+            <div id='winnerIMG'></div>
+            
+            <div id="outroScores">
+                <p id='pscore'>PLAYER: 0</p>
+                <p id='cscore'>COMPUTER: 0</p>
+            </div>
+            
+            <button id='btnRestart' class='btn btnStart btn-click'>Play Again?</button>
+        </div>
+        
+    </body>
+</html>
+
+<script src="index.js"></script>
