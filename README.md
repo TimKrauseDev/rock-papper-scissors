@@ -1,4 +1,4 @@
-# Rock Papper Scissors
-Play the classic game of rock papper scissors.
+# Rock Paper Scissors
+Play the classic game of rock paper scissors.
 
-[Live Demo](https://timkrauseus.github.io/TheOdinProject/rock-paper-scissors/) :point_left:
+[Live Demo](https://timkrauseus.github.io/rock-papper-scissors/) :point_left:
